@@ -1,0 +1,11 @@
+eureka:
+  client:
+    service-url:
+     defaultZone: http://123.207.39.91:8761/eureka/
+spring:
+  cloud:
+    config:
+      uri: http://123.207.39.91:8888/
+      #discovery:
+       # enabled: true
+        #service-id: config-server
