@@ -5,7 +5,6 @@ eureka:
 spring:
   cloud:
     config:
-      uri: http://123.207.39.91:8888/
-      #discovery:
-       # enabled: true
-        #service-id: config-server
+      discovery:
+        enabled: true
+        service-id: config-server
